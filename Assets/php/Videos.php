@@ -53,17 +53,51 @@ sessionTimeout();
   <h1>Video Gallery</h1>
   <div class="videocontainer">
 
-    <div class="video"><video src="../videos/Css.mp4" muted></video></div>
-    <div class="video"><video src="../videos/HTML.mp4" muted></video></div>
-    <div class="video"><video src="../videos/Java.mp4" muted></video></div>
-    <div class="video"><video src="../videos/Js.mp4" muted></video></div>
-    <div class="video"><video src="../videos/Php.mp4" muted></video></div>
 
+
+
+
+  <div class="gallery">
+  <div class="card">
+  <h3>HTML</h3>
+    <video src="../videos/HTML.mp4" controls></video>
   </div>
-  <div class="popupvideo">
-    <video src="../videos/Php.mp4" muted></video></div>
+  <div class="card"> 
+  <h3>CSS</h3>
+    <video src="../videos/Css.mp4" controls></video>
+  </div>
+  <div class="card">
+  <h3>JavaScript</h3>
+    <video src="../videos/Js.mp4" controls></video>
+  </div>
+  <div class="card">
+    <h3>PHP</h3>
+    <video src="../videos/Php.mp4" controls></video>
+  </div>
+  <div class="card">
+    <h3>Java</h3>
+    <video src="../videos/Java.mp4" controls></video>
+  </div>
+  <div class="card">
+    <h3>Laravel</h3>
+    <video src="../videos/Lara.mp4" controls></video>
+  </div>
+  <div class="card">
+    <h3>Framework</h3>
+    <video src="../videos/CI4.mp4" controls></video>
+  </div>
+  <div class="card">
+    <h3>React JS</h3>
+    <video src="../videos/React.mp4" controls></video>
+  </div>
+  <div class="card">
+    <h3>Title 9</h3>
+    <video src="path/to/video3.mp4" controls></video>
   </div>
 </div>
+
+</div>
+
 <footer class="bg-dark text-white text-center text-md-start">
   <!-- Grid container -->
   <div class="container-fluid p-5">
