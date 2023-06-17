@@ -2,16 +2,12 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     display: flex;
     flex-direction: column;
-}
-.main-container{
-    background: #353535;
-    width: 100%;
-    height: 100%;
 }
 
 .banner{
@@ -118,13 +114,78 @@ ul.social-media-icons  li{
 .carousel-item{
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  .carousel-inner img {
+.carousel-inner img {
     width: 800px;
     height: 580px;
     object-fit: cover;
-  }
-  .inside-image-carousel{
+}
+
+.inside-image-carousel{
     display: flex;
-  }
+}
+
+.main-container{
+    background: #353535;
+    height: 100vh;
+    position: relative;
+}
+
+.main-container h1{
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    padding-top: 100px;
+}
+
+.main-container .videocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main-container .videocontainer .video{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5 15px rgba(0, 0, 0, .7);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.main-container .videocontainer .video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2 linear;
+}
+
+.main-container .videocontainer .video:hover video{
+    transform: scale(1.1);
+}
+
+.main-container .popup-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: .8;
+    height : 100%;
+    width: 10%;
+    display: none;
+}
+
+.main-container .popup-video video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    border-radius: 5px;
+    border: solid 5px #ffffff;
+    object-fit: cover;
+}

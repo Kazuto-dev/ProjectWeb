@@ -50,159 +50,20 @@ sessionTimeout();
 </nav>
 </div>
 <div class="main-container">
-<section id="section1">
-<div class="container">
-  <div class="row">
-  <div class="col-md-4 pt-4">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
+  <h1>Video Gallery</h1>
+  <div class="videocontainer">
+
+    <div class="video"><video src="../videos/Css.mp4" muted></video></div>
+    <div class="video"><video src="../videos/HTML.mp4" muted></video></div>
+    <div class="video"><video src="../videos/Java.mp4" muted></video></div>
+    <div class="video"><video src="../videos/Js.mp4" muted></video></div>
+    <div class="video"><video src="../videos/Php.mp4" muted></video></div>
+
   </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4 pb-5">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4 pb-5">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <div class="col-md-4 pt-4 pb-5">
-      <div class="card"><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-  <div class="col-md-4">
-      <img src="../Images/gojo.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><a href="#">Watch</a></p>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
+  <div class="popupvideo">
+    <video src="../videos/Php.mp4" muted></video></div>
   </div>
 </div>
-  </section>
-</div>
-
-
 <footer class="bg-dark text-white text-center text-md-start">
   <!-- Grid container -->
   <div class="container-fluid p-5">

@@ -24,9 +24,5 @@ if ($num == 1) {
     $_SESSION['password'] = $pass;
 
     header('location: ../php/Home.php');
-} else {
-    echo "Check your credentials if correct or contact the administrator";
 }
-
-
 ?>
