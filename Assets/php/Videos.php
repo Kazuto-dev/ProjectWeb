@@ -11,7 +11,7 @@ sessionTimeout();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proguides</title>
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/Home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.3/css/all.min.css">
@@ -19,6 +19,7 @@ sessionTimeout();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
 <body>
+  <div class="container1">
 <nav class="container-nav">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -39,64 +40,30 @@ sessionTimeout();
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" href="../php/Features.php">Home</a>
-        <a class="nav-link" href="../php/Home.php">Features</a>
-        <a class="nav-link" href="#">Books</a>
+        <a class="nav-link" href="../php/Home.php">Home</a>
+        <a class="nav-link active" href="../php/Videos.php">Videos</a>
+        <a class="nav-link" href="../php/Book.php">Books</a>
       </div>
     </div>
   </div>
   </nav>
 </nav>
-<main>
-  <div class="main-container">
-  <section id="section1">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../Images/gojo.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    <img src="../Images/jujutsu.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    <img src="../Images/kaisen.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-  </section>
+<div class="main-container">
+  <h1>Video Gallery</h1>
+  <div class="videocontainer">
+
+    <div class="video"><video src="../videos/Css.mp4" muted></video></div>
+    <div class="video"><video src="../videos/HTML.mp4" muted></video></div>
+    <div class="video"><video src="../videos/Java.mp4" muted></video></div>
+    <div class="video"><video src="../videos/Js.mp4" muted></video></div>
+    <div class="video"><video src="../videos/Php.mp4" muted></video></div>
+
   </div>
-</main>
-
-
-
-
-
- <!-- Footer -->
+  <div class="popupvideo">
+    <video src="../videos/Php.mp4" muted></video></div>
+  </div>
+</div>
 <footer class="bg-dark text-white text-center text-md-start">
   <!-- Grid container -->
   <div class="container-fluid p-5">
@@ -124,7 +91,7 @@ sessionTimeout();
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-  <h3>Links</h3>
+      <h3>Follow Us</h3>
   <ul class="list-unstyled">
     <li>
       <a href="#!" class="text-white">
@@ -182,16 +149,7 @@ sessionTimeout();
 
 
 
-
-
-
-
-
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/90ba71c5ee.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/90ba71c5ee.js" crossorigin="anonymous"></script> 
 </body>
 </html>

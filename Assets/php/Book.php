@@ -2,7 +2,6 @@
 require_once('functions.php');
 checkUser();
 $un = reflectUser();
-sessionTimeout();
 ?>
 
 <!doctype html>
@@ -39,64 +38,134 @@ sessionTimeout();
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" href="../php/Home.php">Home</a>
+        <a class="nav-link" href="../php/Home.php">Home</a>
         <a class="nav-link" href="../php/Videos.php">Videos</a>
-        <a class="nav-link" href="../php/Book.php">Books</a>
+        <a class="nav-link active" href="../php/Book.php">Books</a>
       </div>
     </div>
   </div>
   </nav>
 </nav>
+
 <main>
-  <div class="main-container">
-  <section id="section1">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+   <div class="main-container">
+    <section id="section1">
+
+
+    <div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">JavaScript</h5>
+    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../Images/gojo.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    <img src="../Images/jujutsu.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    <img src="../Images/kaisen.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-  </section>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PHP</h5>
+    <p class="card-text">Server-side scripting language for dynamic web development with seamless database integration.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
   </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+    <p class="card-text">Standard markup language for structuring web pages, delivering information and multimedia across the internet.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CSS</h5>
+    <p class="card-text">Crucial web technology enhancing visual appearance, controlling layout, colors, fonts, and design aspects of websites.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Laravel</h5>
+    <p class="card-text">PHP framework simplifying web app development with elegant syntax, robust features, and a supportive ecosystem.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bash</h5>
+    <p class="card-text">Command-line interpreter and scripting language automating tasks, managing files, and executing commands efficiently in Unix-like systems.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">React</h5>
+    <p class="card-text">JavaScript library for building interactive user interfaces, creating reusable components and rendering UI changes efficiently.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Angular</h5>
+    <p class="card-text">TypeScript-based framework for scalable web applications with two-way data binding and component-based architecture.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">C#</h5>
+    <p class="card-text">Modern language by Microsoft for building web, desktop, and mobile applications with strong typing and extensive framework support.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../Images/kaisen.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">c++</h5>
+    <p class="card-text">Programming language for systems game development, and resource-intensive applications, low-level control and high-level abstractions.</p>
+    <a href="#" class="btn btn-primary">Learn</a>
+  </div>
+</div>
+    </section>
+   </div>
 </main>
 
 
 
 
 
- <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
 <footer class="bg-dark text-white text-center text-md-start">
   <!-- Grid container -->
   <div class="container-fluid p-5">
@@ -124,7 +193,7 @@ sessionTimeout();
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-      <h3>Follow Us</h3>
+  <h3>Follow Us</h3>
   <ul class="list-unstyled">
     <li>
       <a href="#!" class="text-white">
@@ -162,34 +231,6 @@ sessionTimeout();
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/90ba71c5ee.js" crossorigin="anonymous"></script>
