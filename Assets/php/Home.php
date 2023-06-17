@@ -40,9 +40,9 @@ sessionTimeout();
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" href="../php/Home.php">Home</a>
-        <a class="nav-link" href="../php/Features.php">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="../php/Features.php">Home</a>
+        <a class="nav-link active" href="../php/Home.php">Features</a>
+        <a class="nav-link" href="#">Books</a>
       </div>
     </div>
   </div>
