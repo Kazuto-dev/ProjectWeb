@@ -82,14 +82,14 @@ sessionTimeout();
   </div>
 
   <div class="popup-video">
-  <span>&items;</span>
+  <span>&times;</span>
   <video src="../videos/HTML.mp4" muted autoplay controls></video>
-
 </div>
 
 </div>
 
-
+<br>
+<br>
 
 <script>
 

@@ -172,11 +172,11 @@ ul.social-media-icons  li{
 
 .main-container .popup-video span{
     position: absolute;
-    top: 5px; right: 20px;
+    top: 100px; right: 20px;
     font-size: 50px;
     color: #fff;
     font-weight: bolder;
-    z-index: 100;
+    z-index: 100; 
     cursor: pointer;
 }
 
@@ -187,3 +187,5 @@ ul.social-media-icons  li{
 }
 
 }
+
+
