@@ -23,35 +23,6 @@ body{
     padding-top: 100px;
 }
 
-.main-container .video-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    padding: 10px;
-}
-
-.main-container .video-container .video{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 5 15px rgba(0, 0, 0, .7);
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.main-container .video-container .video video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: .2 linear;
-}
-
-.main-container .video-container .video:hover video{
-    transform: scale(1.1);
-}
-
 .banner{
     font-weight: 700;
     font-size: 2.5rem;
@@ -211,7 +182,7 @@ display: none;
 
 /* cards */
 
-.gallery {
+/*.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -242,9 +213,88 @@ display: none;
   .card video {
     align-self: center;
     width: 90%;
-    height: 200px; /* Adjust the height as needed */
-  }
-  
+    height: 200px; /* Adjust the height as needed 
+  }*/
+  /*
   h3 {
     margin-top: 10px;
-  }
+  }*/
+
+
+.main-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-container .video-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main-container .video-container .video{
+    height: 250px;
+    width: 350px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.main-container .video-container .video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.main-container .video-container .video:hover video{
+    transform: scale(1.1);
+}
+
+.main-container .popup-video{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.main-container .popup-video video{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+
+.main-container .popup-video span{
+    position: absolute;
+    top: 5px; right: 20px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+    z-index: 100;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+.main-container .popup-video video{
+    width: 95%;
+}
+
+
+
+
+
+
+
+}

@@ -35,7 +35,7 @@ sessionTimeout();
     <div class="banner2">
     <a class="navbar-brand" href="#">Proguides</a>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-muted="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -51,70 +51,59 @@ sessionTimeout();
 </div>
 <div class="main-container">
   <h1>Video Gallery</h1>
-  <div class="videocontainer">
 
+  <div class="video-container">
+  <div class="video">
+    <video src="../videos/HTML.mp4" muted></video>
+  </div>
+  <div class="video"> 
+    <video src="../videos/Css.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="../videos/Js.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="../videos/Php.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="../videos/Java.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="../videos/Lara.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="../videos/CI4.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="../videos/React.mp4" muted></video>
+  </div>
+  <div class="video">
+    <video src="path/to/video3.mp4" muted></video>
+  </div>
 
+  <div class="popup-video">
+  <span>&items;</span>
+  <video src="../videos/HTML.mp4" muted autoplay controls></video>
 
-
-
-  <div class="gallery">
-  <div class="card">
-  <h3>HTML</h3>
-    <video src="../videos/HTML.mp4" controls></video>
-    <h2>Intoduction in HTML</h2>
-    <p>Watch the the whole video and learn the basic in HTML.</p>
-  </div>
-  <div class="card"> 
-  <h3>CSS</h3>
-    <video src="../videos/Css.mp4" controls></video>
-    <h2>Intoduction in CSS</h2>
-    <p>Watch the the whole video and learn the basic in CSS.</p>
-  </div>
-  <div class="card">
-  <h3>JavaScript</h3>
-    <video src="../videos/Js.mp4" controls></video>
-    <h2>Intoduction in JavaScript</h2>
-    <p>Watch the the whole video and learn the basic in JavaScript.</p>
-  </div>
-  <div class="card">
-    <h3>PHP</h3>
-    <video src="../videos/Php.mp4" controls></video>
-    <h2>Intoduction in PHP</h2>
-    <p>Watch the the whole video and learn the basic in PHP.</p>
-  </div>
-  <div class="card">
-    <h3>Java</h3>
-    <video src="../videos/Java.mp4" controls></video>
-    <h2>Intoduction in Jave</h2>
-    <p>Watch the the whole video and learn the basic in Java.</p>
-  </div>
-  <div class="card">
-    <h3>Laravel</h3>
-    <video src="../videos/Lara.mp4" controls></video>
-    <h2>Intoduction in Laravel</h2>
-    <p>Watch the the whole video and learn the basic in Laravel.</p>
-  </div>
-  <div class="card">
-    <h3>Framework</h3>
-    <video src="../videos/CI4.mp4" controls></video>
-    <h2>Intoduction in Framework</h2>
-    <p>Watch the the whole video and learn the basic in Framework.</p>
-  </div>
-  <div class="card">
-    <h3>React JS</h3>
-    <video src="../videos/React.mp4" controls></video>
-    <h2>Intoduction in React Js</h2>
-    <p>Watch the the whole video and learn the basic in React Js.</p>
-  </div>
-  <div class="card">
-    <h3>Title 9</h3>
-    <video src="path/to/video3.mp4" controls></video>
-    <h2>Intoduction in HTML</h2>
-    <p>Watch the the whole video and learn the basic in HTML.</p>
-  </div>
 </div>
 
 </div>
+
+
+
+<script>
+
+  document.querySelectorAll('.video-container video').forEach(vid =>{
+    vid.onclick = () =>{
+      document.querySelector('.popup-video').style.display = 'block';
+      document.querySelector('.popup-video video').src = vid.getAttribute('src');
+    }
+  });
+  
+  document.querySelector('.popup-video span').onclick = () =>{
+    document.querySelector('.popup-video').style.display = 'none';
+  }
+</script>
 
 <footer class="bg-dark text-white text-center text-md-start">
   <!-- Grid container -->
