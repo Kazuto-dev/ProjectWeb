@@ -68,7 +68,7 @@ $un = reflectUser();
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/HTML.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">HTML</h5>
@@ -77,13 +77,13 @@ $un = reflectUser();
     <p class="card-text">Standard markup language for structuring web pages, delivering information and multimedia across the internet.</p>
     </div>
     <div class="buttonLearn">
-    <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
+    <a href="../pdf/HTML5.pdf" class="btn btn-primary">Learn</a>
     </div>
   </div>
 </div>
 
     <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/CSS.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">CSS</h5>
@@ -92,28 +92,28 @@ $un = reflectUser();
     <p class="card-text">Crucial web technology enhancing visual appearance, controlling layout, colors, fonts, and design aspects of websites.</p>
     </div>
     <div class="buttonLearn">
-    <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
+    <a href="../pdf/Css.pdf" class="btn btn-primary">Learn</a>
     </div>
   </div>
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/Linux.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">Laravel</h5>
+    <h5 class="card-title">Linux</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Popular PHP framework simplifying web app development with elegant syntax, robust features, and a supportive ecosystem.</p>
+    <p class="card-text">Open-source operating system empowering users with stability, flexibility, and a vast range of software options for diverse computing needs.</p>
     </div>
     <div class="buttonLearn">
-    <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
+    <a href="../pdf/Linux.pdf" class="btn btn-primary">Learn</a>
     </div>
   </div>
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/bash.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">Bash</h5>
@@ -132,7 +132,7 @@ $un = reflectUser();
   <div class="half">
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/React.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">React</h5>
@@ -147,7 +147,7 @@ $un = reflectUser();
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/Angular.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">Angular</h5>
@@ -162,7 +162,7 @@ $un = reflectUser();
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/Csharp.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">C#</h5>
@@ -177,7 +177,7 @@ $un = reflectUser();
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/C++.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">C++</h5>
@@ -192,7 +192,7 @@ $un = reflectUser();
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="../Images/Js.jpg" class="card-img-top" alt="...">
+  <img src="../Images/Php.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
     <h5 class="card-title">PHP</h5>
