@@ -58,19 +58,19 @@ sessionTimeout();
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../Images/gojo.jpg" class="d-block w-100" alt="...">
+      <img src="../Images/1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Empowering learners to code their dreams into reality</h1>
       </div>
     </div>
     <div class="carousel-item">
-    <img src="../Images/jujutsu.jpg" class="d-block w-100" alt="...">
+    <img src="../Images/2.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Empowering learners to code their dreams into reality</h1>
       </div>
     </div>
     <div class="carousel-item">
-    <img src="../Images/kaisen.jpg" class="d-block w-100" alt="...">
+    <img src="../Images/3.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Master programming languages with expert guidance.</h1>
       </div>
