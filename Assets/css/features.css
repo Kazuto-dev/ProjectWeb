@@ -46,7 +46,7 @@ a.navbar-brand {
 }
 
 section{
-    padding-top: 100px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,3 +172,51 @@ ul.social-media-icons  li{
   h3 {
     margin-top: 10px;
   }
+
+
+
+
+.half {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 50px;
+}
+.firsthalf {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 20px;
+}
+.card {
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+img.card-img-top {
+    height: 150px;
+}
+
+.title {
+    padding: 5px;
+}
+
+.textp {
+    padding: 5px;
+    width: 240px;
+    height: 150px;
+}
+
+.buttonLearn {
+    padding-top: 30px;
+}
+
+p.card-text {
+    color: rgb(43, 43, 43);
+}
+
+h5.card-title {
+    color: rgb(61, 61, 61);
+}
