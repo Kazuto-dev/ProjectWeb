@@ -250,9 +250,9 @@ $un = reflectUser();
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
         <h3>Contact</h3>
-      <p>123 Main Street, City, Country</p>
-      <p>Email: info@example.com</p>
-      <p>Phone: +1 123 456 7890</p>
+      <p>Cavite State University - Silang Campus</p>
+      <p>Email: CVSU@gmail.com</p>
+      <p>Phone: 0912345678</p>
       </div>
       <!--Grid column-->
 
@@ -262,22 +262,22 @@ $un = reflectUser();
   <ul class="list-unstyled">
     <li>
       <a href="#!" class="text-white">
-        <i class="fas fa-github"></i> Github
+        <i class="fa fa-github"></i> Github
       </a>
     </li>
     <li>
       <a href="#!" class="text-white">
-        <i class="fas fa-facebook"></i> Facebook
+        <i class="fa fa-facebook"></i> Facebook
       </a>
     </li>
     <li>
       <a href="#!" class="text-white">
-        <i class="fas fa-twitter"></i> Twitter
+        <i class="fa fa-twitter"></i> Twitter
       </a>
     </li>
     <li>
       <a href="#!" class="text-white">
-        <i class="fas fa-linkedin"></i> LinkedIn
+        <i class="fa fa-linkedin"></i> LinkedIn
       </a>
     </li>
   </ul>

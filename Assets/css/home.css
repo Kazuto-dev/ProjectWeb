@@ -21,6 +21,7 @@ body{
     padding: 15px;
     color: aliceblue;
     padding-top: 100px;
+    font-weight: bolder;
 }
 
 .banner{
@@ -150,7 +151,6 @@ ul.social-media-icons  li{
 .carousel-caption.d-none.d-md-block {
     display: flex;
     position: absolute;
-    right: 50%;
-    /* top: 90%; */
-    bottom: 70%;
+    right: 40%;
+    bottom: 50%;
 }
