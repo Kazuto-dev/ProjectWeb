@@ -78,7 +78,7 @@ sessionTimeout();
     <video src="../videos/React.mp4" muted></video>
   </div>
   <div class="video">
-    <video src="path/to/video3.mp4" muted></video>
+    <video src="../videos/python.mp4" muted></video>
   </div>
 
   <div class="popup-video">
