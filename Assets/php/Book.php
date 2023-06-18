@@ -71,10 +71,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">HTML</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Standard markup language for structuring web pages, delivering information and multimedia across the internet.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -86,10 +86,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">CSS</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Crucial web technology enhancing visual appearance, controlling layout, colors, fonts, and design aspects of websites.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -101,10 +101,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">Laravel</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Popular PHP framework simplifying web app development with elegant syntax, robust features, and a supportive ecosystem.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -116,10 +116,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">Bash</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Command-line interpreter and scripting language automating tasks, managing files, and executing commands efficiently in Unix-like systems.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -135,10 +135,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">React</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">JavaScript library for building interactive user interfaces, creating reusable components and rendering UI changes efficiently.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -150,10 +150,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">Angular</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">TypeScript-based framework for scalable web applications with powerful features like two-way data binding and component-based architecture.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -165,10 +165,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">C#</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Modern language by Microsoft for building web, desktop, and mobile applications with strong typing and extensive framework support.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -180,10 +180,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">C++</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Powerful programming language for systems programming, game development, and resource-intensive applications, providing low-level control and high-level abstractions.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
@@ -195,10 +195,10 @@ $un = reflectUser();
   <img src="../Images/Js.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <div class="title">
-    <h5 class="card-title">JavaScript</h5>
+    <h5 class="card-title">PHP</h5>
     </div>
     <div class="textp">
-    <p class="card-text">Versatile language for interactive web behavior, essential for aspiring web developers to learn.</p>
+    <p class="card-text">Server-side scripting language for dynamic web development with seamless database integration.</p>
     </div>
     <div class="buttonLearn">
     <a href="../pdf/JS.pdf" class="btn btn-primary">Learn</a>
